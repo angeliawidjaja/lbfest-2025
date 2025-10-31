@@ -1,6 +1,77 @@
 (function() {
   "use strict";
 
+  // ===========================
+  // Dynamic Header Loader + Active Navbar Highlight
+  // ===========================
+  document.addEventListener("DOMContentLoaded", () => {
+  const headerContainer = document.getElementById("header-placeholder");
+
+  if (headerContainer) {
+    fetch("../../components/header.html")
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        return response.text();
+      })
+      .then(data => {
+        headerContainer.innerHTML = data;
+
+        // Highlight the active nav link based on current page
+        setActiveNavbarLink();
+
+        // Optional: reinitialize any JS events for header (if needed)
+        if (typeof initNavMenu === "function") {
+          initNavMenu();
+        }
+      })
+      .catch(error => console.error("Error loading header:", error));
+    }
+  });
+
+/**
+ * Highlights the active nav link depending on current file path.
+ */
+function setActiveNavbarLink() {
+  const currentPage = window.location.pathname.split("/").pop(); // e.g., "about.html"
+  const navLinks = document.querySelectorAll("#header-placeholder nav ul li a");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    // Remove any old "active" class
+    link.classList.remove("active");
+
+    // Match current page OR index.html for home
+    if (
+      linkPage === currentPage ||
+      (currentPage === "" && linkPage === "index.html")
+    ) {
+      link.classList.add("active");
+    }
+  });
+}
+
+  // Load footer.html dynamically
+  document.addEventListener("DOMContentLoaded", () => {
+  const footerContainer = document.getElementById("footer-placeholder");
+  if (footerContainer) {
+    fetch("../../components/footer.html")
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        return response.text();
+      })
+      .then(data => {
+        footerContainer.innerHTML = data;
+
+        // Reinitialize any JS functionality that depends on footer elements
+        if (typeof initNavMenu === "function") {
+          initNavMenu(); // example hook if your nav needs JS to re-bind events
+        }
+      })
+      .catch(error => console.error("Error loading footer:", error));
+    }
+  });
+
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
