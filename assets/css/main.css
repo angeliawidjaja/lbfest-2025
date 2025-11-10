@@ -2,7 +2,6 @@
 
 /*--------------------------------------------------------------
 # Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -24,7 +23,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-color: #fb78b8ff;  /* The default color of the main navmenu links */
   --nav-hover-color: #dae269ff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -153,7 +152,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 8vh;
   margin-right: 8px;
 }
 
@@ -228,8 +227,13 @@ h6 {
     position: relative;
   }
 
+  .scrolled .navmenu a {
+    color: white;
+  }
+
   .navmenu a,
-  .navmenu a:focus {
+  .navmenu a:focus,
+  .scrolled .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
     font-size: 16px;
@@ -243,7 +247,8 @@ h6 {
   }
 
   .navmenu a i,
-  .navmenu a:focus i {
+  .navmenu a:focus i,
+  .scrolled .navmenu a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
@@ -256,7 +261,9 @@ h6 {
 
   .navmenu li:hover>a,
   .navmenu .active,
-  .navmenu .active:focus {
+  .navmenu .active:focus,
+  .scrolled .navmenu .active,
+  .scrolled .navmenu .active:focus {
     color: var(--nav-hover-color);
   }
 
@@ -755,7 +762,7 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/events/showcase-1.webp");
+  background-image: url("../img/background/hero-bg-lbfest.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -863,7 +870,7 @@ section,
 
 .hero .detail-item i {
   font-size: 1.2rem;
-  color: var(--accent-color);
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -2194,7 +2201,7 @@ section,
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../img/events/showcase-1.webp") center/cover no-repeat;
+  background: url("../img/background/hero-bg-lbfest.png") center/cover no-repeat;
   opacity: 0.1;
   z-index: 1;
 }
