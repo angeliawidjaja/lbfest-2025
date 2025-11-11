@@ -19,6 +19,7 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   --purple-background-color: #9e529fff;
+  --green-background-color: #dae269ff;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -4541,7 +4542,7 @@ section,
   text-align: center;
 }
 
-.venue-2 .accommodation-section .hotel-card {
+.venue-2 .accommodation-section .tenant-card {
   background-color: var(--surface-color);
   border-radius: 15px;
   overflow: hidden;
@@ -4550,27 +4551,27 @@ section,
   height: 100%;
 }
 
-.venue-2 .accommodation-section .hotel-card:hover {
+.venue-2 .accommodation-section .tenant-card:hover {
   transform: translateY(-5px);
 }
 
-.venue-2 .accommodation-section .hotel-card img {
+.venue-2 .accommodation-section .tenant-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.venue-2 .accommodation-section .hotel-card .hotel-info {
+.venue-2 .accommodation-section .tenant-card .tenant-info {
   padding: 20px;
 }
 
-.venue-2 .accommodation-section .hotel-card .hotel-info h6 {
+.venue-2 .accommodation-section .tenant-card .tenant-info h6 {
   color: var(--heading-color);
   margin-bottom: 10px;
   font-weight: 600;
 }
 
-.venue-2 .accommodation-section .hotel-card .hotel-info .hotel-distance {
+.venue-2 .accommodation-section .tenant-card .tenant-info .hotel-distance {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -4578,12 +4579,12 @@ section,
   font-size: 0.9rem;
 }
 
-.venue-2 .accommodation-section .hotel-card .hotel-info .hotel-distance i {
+.venue-2 .accommodation-section .tenant-card .tenant-info .hotel-distance i {
   color: var(--accent-color);
   font-size: 0.8rem;
 }
 
-.venue-2 .accommodation-section .hotel-card .hotel-info .hotel-price {
+.venue-2 .accommodation-section .tenant-card .tenant-info .tenant-name {
   font-weight: 600;
   color: var(--accent-color);
 }
@@ -4606,7 +4607,7 @@ section,
     margin-bottom: 30px;
   }
 
-  .venue-2 .hotel-card {
+  .venue-2 .tenant-card {
     margin-bottom: 30px;
   }
 }

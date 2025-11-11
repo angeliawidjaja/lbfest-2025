@@ -178,7 +178,7 @@
       text-align: center;
     }
 
-    .hotel-card {
+    .tenant-card {
       background-color: var(--surface-color);
       border-radius: 15px;
       overflow: hidden;
@@ -196,7 +196,7 @@
         object-fit: cover;
       }
 
-      .hotel-info {
+      .tenant-info {
         padding: 20px;
 
         h6 {
@@ -218,7 +218,7 @@
           }
         }
 
-        .hotel-price {
+        .tenant-name {
           font-weight: 600;
           color: var(--accent-color);
         }
@@ -244,7 +244,7 @@
       margin-bottom: 30px;
     }
 
-    .hotel-card {
+    .tenant-card {
       margin-bottom: 30px;
     }
   }
