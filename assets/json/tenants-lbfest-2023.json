@@ -1,0 +1,469 @@
+[
+  {
+    "tenantCategory": "FnB",
+    "tenantCategoryDesc": "Food & Beverages",
+    "listTenants": [
+      {
+        "no": 1,
+        "brandName": "Siomay Iyo",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1iN1GxfKyI2uzCfcTFQrhmF766JoyUZTO/view?usp=drive_link",
+        "brandLogoGdriveId": "1iN1GxfKyI2uzCfcTFQrhmF766JoyUZTO"
+      },
+      {
+        "no": 2,
+        "brandName": "Baksoe",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1j3JMJ26zqYcDrDHU_DiRqGbLOgqYMHus/view?usp=drive_link",
+        "brandLogoGdriveId": "1j3JMJ26zqYcDrDHU_DiRqGbLOgqYMHus"
+      },
+      {
+        "no": 3,
+        "brandName": "Look And Eat",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1v52ZDJaIfN1oT0dsdPOcbdZlSqsR2aZM/view?usp=drive_link",
+        "brandLogoGdriveId": "1v52ZDJaIfN1oT0dsdPOcbdZlSqsR2aZM"
+      },
+      {
+        "no": 4,
+        "brandName": "Dim Sans",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1YrvWVnx9EGuwAUq8j8JiXjihysGwI3ji/view?usp=drive_link",
+        "brandLogoGdriveId": "1YrvWVnx9EGuwAUq8j8JiXjihysGwI3ji"
+      },
+      {
+        "no": 5,
+        "brandName": "Kohawe",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1cRPMgy3LNNFByvcS7_D8gguUF6LTeTe6/view?usp=drive_link",
+        "brandLogoGdriveId": "1cRPMgy3LNNFByvcS7_D8gguUF6LTeTe6"
+      },
+      {
+        "no": 6,
+        "brandName": "Friedbuns",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1HOrGea8xz_6yD2hAsP3Afy6QEDwAIbXQ/view?usp=drive_link",
+        "brandLogoGdriveId": "1HOrGea8xz_6yD2hAsP3Afy6QEDwAIbXQ"
+      },
+      {
+        "no": 7,
+        "brandName": "Claubelly",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/18QvBfbEaarGeKNtTbThSVhl42zywXu6O/view?usp=drive_link",
+        "brandLogoGdriveId": "18QvBfbEaarGeKNtTbThSVhl42zywXu6O"
+      },
+      {
+        "no": 8,
+        "brandName": "Shiratakeit",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1aLYrB_Lc6rq9_NG0TNlY7vcqA-JNFH6-/view?usp=drive_link",
+        "brandLogoGdriveId": "1aLYrB_Lc6rq9_NG0TNlY7vcqA-JNFH6-"
+      },
+      {
+        "no": 9,
+        "brandName": "Kata Nyai",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1fsH-io-p3EjJzfKsyJZI9xLV9teYSrOH/view?usp=drive_link",
+        "brandLogoGdriveId": "1fsH-io-p3EjJzfKsyJZI9xLV9teYSrOH"
+      },
+      {
+        "no": 10,
+        "brandName": "Goerih",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1uVvru1eWTh_vAOm66s9E0YJHsQQFEvDF/view?usp=drive_link",
+        "brandLogoGdriveId": "1uVvru1eWTh_vAOm66s9E0YJHsQQFEvDF"
+      },
+      {
+        "no": 11,
+        "brandName": "Loovey",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1SkLsUb4LzHwySCtAO28SMDDsUsffGXKh/view?usp=drive_link",
+        "brandLogoGdriveId": "1SkLsUb4LzHwySCtAO28SMDDsUsffGXKh"
+      },
+      {
+        "no": 12,
+        "brandName": "Limaunara",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zdbYGOinKrWd-FwYZYlA3dnLlhE7F3H0/view?usp=drive_link",
+        "brandLogoGdriveId": "1zdbYGOinKrWd-FwYZYlA3dnLlhE7F3H0"
+      },
+      {
+        "no": 13,
+        "brandName": "Numie",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1WkiOivpw28sKuPkapwTs6PWaTBzABq2I/view?usp=drive_link",
+        "brandLogoGdriveId": "1WkiOivpw28sKuPkapwTs6PWaTBzABq2I"
+      },
+      {
+        "no": 14,
+        "brandName": "Makanwoy",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/16l3_VX_P_CsAb3TvM-yA8RvxJZ2TF0pT/view?usp=drive_link",
+        "brandLogoGdriveId": "16l3_VX_P_CsAb3TvM-yA8RvxJZ2TF0pT"
+      },
+      {
+        "no": 15,
+        "brandName": "PotaCheese",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1wshxiPgdjlHu_U6aO-C-H31jW_omYinD/view?usp=drive_link",
+        "brandLogoGdriveId": "1wshxiPgdjlHu_U6aO-C-H31jW_omYinD"
+      },
+      {
+        "no": 16,
+        "brandName": "Mie Aceh Baroe",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1kAzIHxbA4dmEJzsjuO-Gqils9sZIVRKf/view?usp=drive_link",
+        "brandLogoGdriveId": "1kAzIHxbA4dmEJzsjuO-Gqils9sZIVRKf"
+      },
+      {
+        "no": 17,
+        "brandName": "Our Daily Snack",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1OSWme-rJtIbpXoof9K1ZlB0VPEblDjCc/view?usp=drive_link",
+        "brandLogoGdriveId": "1OSWme-rJtIbpXoof9K1ZlB0VPEblDjCc"
+      },
+      {
+        "no": 18,
+        "brandName": "Golden Toast",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1nxTXS5BWir_oCDwg_tkiJrthkBUtn3E2/view?usp=drive_link",
+        "brandLogoGdriveId": "1nxTXS5BWir_oCDwg_tkiJrthkBUtn3E2"
+      },
+      {
+        "no": 19,
+        "brandName": "Keidai Kaffee 5",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1uIAGvB-UtoBK-kmxGnWX469gpRsfJJmN/view?usp=drive_link",
+        "brandLogoGdriveId": "1uIAGvB-UtoBK-kmxGnWX469gpRsfJJmN"
+      },
+      {
+        "no": 20,
+        "brandName": "Snack Attack",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1mmKI46Yur2mMAOww7jmTDM3D90WpJZ4J/view?usp=drive_link",
+        "brandLogoGdriveId": "1mmKI46Yur2mMAOww7jmTDM3D90WpJZ4J"
+      },
+      {
+        "no": 21,
+        "brandName": "Biscup",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1q2Y8vCllCiLRIXcwCZavc8y7IEHcSVH6/view?usp=drive_link",
+        "brandLogoGdriveId": "1q2Y8vCllCiLRIXcwCZavc8y7IEHcSVH6"
+      },
+      {
+        "no": 22,
+        "brandName": "Ondego Express",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/16BJWUi1B09QUbDS4xg_cWPLibcDadKYI/view?usp=drive_link",
+        "brandLogoGdriveId": "16BJWUi1B09QUbDS4xg_cWPLibcDadKYI"
+      },
+      {
+        "no": 23,
+        "brandName": "Small Bites",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/19IFfh6J8v8zURLSAKPrfGCrYLcXeWou6/view?usp=drive_link",
+        "brandLogoGdriveId": "19IFfh6J8v8zURLSAKPrfGCrYLcXeWou6"
+      },
+      {
+        "no": 24,
+        "brandName": "Mbok Dimsum",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XOwdRhS20Y1j1KzGRPvMJ0Hz4jIj6cxu/view?usp=drive_link",
+        "brandLogoGdriveId": "1XOwdRhS20Y1j1KzGRPvMJ0Hz4jIj6cxu"
+      },
+      {
+        "no": 25,
+        "brandName": "Kkulbbang",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1tGGnHFVW0hWAgl_asrNN0BL6yy418-9i/view?usp=drive_link",
+        "brandLogoGdriveId": "1tGGnHFVW0hWAgl_asrNN0BL6yy418-9i"
+      },
+      {
+        "no": 26,
+        "brandName": "Pempek Mardella",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1YjCeOcid2Kg2sAKLU8lEZ5lY2AlIQjhc/view?usp=drive_link",
+        "brandLogoGdriveId": "1YjCeOcid2Kg2sAKLU8lEZ5lY2AlIQjhc"
+      },
+      {
+        "no": 27,
+        "brandName": "SW Pangg",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/18J7wjLWf-cioUu9PfAuqqb2_pkPoiI9u/view?usp=drive_link",
+        "brandLogoGdriveId": "18J7wjLWf-cioUu9PfAuqqb2_pkPoiI9u"
+      },
+      {
+        "no": 28,
+        "brandName": "OOHNO Chick'n Cone",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1sP8EpTLKc4QicgDiAakLGlvLSlpBLzTS/view?usp=drive_link",
+        "brandLogoGdriveId": "1sP8EpTLKc4QicgDiAakLGlvLSlpBLzTS"
+      },
+      {
+        "no": 29,
+        "brandName": "Nusantara Ricebowl",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1CHjF7nkkuC-KbtXb6A90yOVKWkazc02W/view?usp=drive_link",
+        "brandLogoGdriveId": "1CHjF7nkkuC-KbtXb6A90yOVKWkazc02W"
+      },
+      {
+        "no": 30,
+        "brandName": "Gyozamase",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Tp5xyzqNqJUhGRxVLCcRHPslJpyhQusj/view?usp=drive_link",
+        "brandLogoGdriveId": "1Tp5xyzqNqJUhGRxVLCcRHPslJpyhQusj"
+      },
+      {
+        "no": 31,
+        "brandName": "Laukin.co",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zjxzlOrEAR4DaVwjZu3l5PLDOGnaZZvL/view?usp=drive_link",
+        "brandLogoGdriveId": "1zjxzlOrEAR4DaVwjZu3l5PLDOGnaZZvL"
+      },
+      {
+        "no": 32,
+        "brandName": "D'Empings",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1KJZQyzzO23h_kGJan2BG1UldrTA3A3d4/view?usp=drive_link",
+        "brandLogoGdriveId": "1KJZQyzzO23h_kGJan2BG1UldrTA3A3d4"
+      },
+      {
+        "no": 33,
+        "brandName": "Healthy Cream",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1bX81eLzEcwH92R01Ik-RXX53Ur18Zue6/view?usp=drive_link",
+        "brandLogoGdriveId": "1bX81eLzEcwH92R01Ik-RXX53Ur18Zue6"
+      },
+      {
+        "no": 34,
+        "brandName": "EnakPowl",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Z-DRL0CYIXiKEH_oav7naCSL4BhbjkJA/view?usp=drive_link",
+        "brandLogoGdriveId": "1Z-DRL0CYIXiKEH_oav7naCSL4BhbjkJA"
+      },
+      {
+        "no": 35,
+        "brandName": "Puddy Lova",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1oqjqNFlCJBvC7pB7DHmTkeeYiAHbfxEg/view?usp=drive_link",
+        "brandLogoGdriveId": "1oqjqNFlCJBvC7pB7DHmTkeeYiAHbfxEg"
+      },
+      {
+        "no": 36,
+        "brandName": "My Bee",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1eRiVc8KcGBvdncc1vYC09StpqBsFN5hL/view?usp=drive_link",
+        "brandLogoGdriveId": "1eRiVc8KcGBvdncc1vYC09StpqBsFN5hL"
+      },
+      {
+        "no": 37,
+        "brandName": "Ena'Cho",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1TMiNHZjvlIi2blwMLFEkvqJsqhelBnjJ/view?usp=drive_link",
+        "brandLogoGdriveId": "1TMiNHZjvlIi2blwMLFEkvqJsqhelBnjJ"
+      },
+      {
+        "no": 38,
+        "brandName": "Piscil",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1PtYpiSPNSjiU7ZJzGDKdasBqQ86C6txi/view?usp=drive_link",
+        "brandLogoGdriveId": "1PtYpiSPNSjiU7ZJzGDKdasBqQ86C6txi"
+      },
+      {
+        "no": 39,
+        "brandName": "Gudeg Mercon Bu Pur",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1_uF268y6f_8RZXueLEe3l10VOQy5jJ9P/view?usp=drive_link",
+        "brandLogoGdriveId": "1_uF268y6f_8RZXueLEe3l10VOQy5jJ9P"
+      },
+      {
+        "no": 40,
+        "brandName": "Bakso Goreng 88",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1C-Lw6N3gQ5CzA8YS9Tu9HamoacW8w9mt/view?usp=drive_link",
+        "brandLogoGdriveId": "1C-Lw6N3gQ5CzA8YS9Tu9HamoacW8w9mt"
+      },
+      {
+        "no": 41,
+        "brandName": "Telur Gulung Taman Aries",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1X-74VimjJFSOI7WGZI2QEUL8NoTNrsHa/view?usp=drive_link",
+        "brandLogoGdriveId": "1X-74VimjJFSOI7WGZI2QEUL8NoTNrsHa"
+      },
+      {
+        "no": 42,
+        "brandName": "Teh Kotjok",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1O4fKFVkkB2OePd2alRvdpoVym4xyXzGl/view?usp=drive_link",
+        "brandLogoGdriveId": "1O4fKFVkkB2OePd2alRvdpoVym4xyXzGl"
+      },
+      {
+        "no": 43,
+        "brandName": "Glaze n Bites",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1tZPOxg9UPNHoUcnj375Pg8HrnLBzDmHl/view?usp=drive_link",
+        "brandLogoGdriveId": "1tZPOxg9UPNHoUcnj375Pg8HrnLBzDmHl"
+      },
+      {
+        "no": 44,
+        "brandName": "The World's Flavours",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1lka9RMIqnm94Z36IJdzyzNavM1RJGPyF/view?usp=drive_link",
+        "brandLogoGdriveId": "1lka9RMIqnm94Z36IJdzyzNavM1RJGPyF"
+      },
+      {
+        "no": 45,
+        "brandName": "Nagih",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1A1ftFKLCYkTd5KahivtPuJjeoA_nY2MS/view?usp=drive_link",
+        "brandLogoGdriveId": "1A1ftFKLCYkTd5KahivtPuJjeoA_nY2MS"
+      },
+      {
+        "no": 46,
+        "brandName": "Lumpia Semarang Bu Ida",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1-G_ix4xErHSEZUK4W018eSZkbld64Ihx/view?usp=drive_link",
+        "brandLogoGdriveId": "1-G_ix4xErHSEZUK4W018eSZkbld64Ihx"
+      },
+      {
+        "no": 47,
+        "brandName": "Djajan Yuk",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1MzYbnes5D2YrG599uCQUWnPtcwv1860a/view?usp=drive_link",
+        "brandLogoGdriveId": "1MzYbnes5D2YrG599uCQUWnPtcwv1860a"
+      }
+    ]
+  },
+  {
+    "tenantCategory": "Retail",
+    "tenantCategoryDesc": "Retail",
+    "listTenants": [
+      {
+        "no": 48,
+        "brandName": "Potret Kita Studio",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Dq1CRrTRyaOMY5xGLblgV77vHy1eZScp/view?usp=drive_link",
+        "brandLogoGdriveId": "1Dq1CRrTRyaOMY5xGLblgV77vHy1eZScp"
+      },
+      {
+        "no": 49,
+        "brandName": "Magcoin",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1UGDSiYiOxywQCm0zaNmEkkkCYyb_2NaP/view?usp=drive_link",
+        "brandLogoGdriveId": "1UGDSiYiOxywQCm0zaNmEkkkCYyb_2NaP"
+      },
+      {
+        "no": 50,
+        "brandName": "Singh and Sons Gordyn",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1CDcSgPlJa5FV5an7QMWqX8oBVUgYv88C/view?usp=drive_link",
+        "brandLogoGdriveId": "1CDcSgPlJa5FV5an7QMWqX8oBVUgYv88C"
+      },
+      {
+        "no": 51,
+        "brandName": "Yukata Vape",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/15nvadUz-6i3dYv2VEiE6hx-lNXFhn18G/view?usp=drive_link",
+        "brandLogoGdriveId": "15nvadUz-6i3dYv2VEiE6hx-lNXFhn18G"
+      },
+      {
+        "no": 52,
+        "brandName": "Litz",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1xDXzYaooguoC82GovDsy_z022-xCJdTi/view?usp=drive_link",
+        "brandLogoGdriveId": "1xDXzYaooguoC82GovDsy_z022-xCJdTi"
+      },
+      {
+        "no": 53,
+        "brandName": "ShoeShoe Laundry",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1DSPAYnBcH9kw9v_90N0fE8Z2x_rLdi-A/view?usp=drive_link",
+        "brandLogoGdriveId": "1DSPAYnBcH9kw9v_90N0fE8Z2x_rLdi-A"
+      },
+      {
+        "no": 54,
+        "brandName": "Zelova Skin",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zdcFirgcQV3XRqNXx84dVh94dTlP0RFz/view?usp=drive_link",
+        "brandLogoGdriveId": "1zdcFirgcQV3XRqNXx84dVh94dTlP0RFz"
+      },
+      {
+        "no": 55,
+        "brandName": "Gabriella Beauty Bar",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1DfL2jTtdtGEcEykCQAQuDLbRfiZIXgyq/view?usp=drive_link",
+        "brandLogoGdriveId": "1DfL2jTtdtGEcEykCQAQuDLbRfiZIXgyq"
+      },
+      {
+        "no": 56,
+        "brandName": "Mr. Bob's Shoescare",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1caeyA3uwOClOtJm-QkP0tOTZnaC5-xvi/view?usp=drive_link",
+        "brandLogoGdriveId": "1caeyA3uwOClOtJm-QkP0tOTZnaC5-xvi"
+      },
+      {
+        "no": 57,
+        "brandName": "Zanaya",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1aJ6NuG1HhPAlLh4zXygoL0Raeym6ZEEp/view?usp=drive_link",
+        "brandLogoGdriveId": "1aJ6NuG1HhPAlLh4zXygoL0Raeym6ZEEp"
+      },
+      {
+        "no": 58,
+        "brandName": "Customsify",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/17iduHKPscMib0yukHzWc1DKqUDmDGKlz/view?usp=drive_link",
+        "brandLogoGdriveId": "17iduHKPscMib0yukHzWc1DKqUDmDGKlz"
+      },
+      {
+        "no": 59,
+        "brandName": "Bucin Kit",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1J1h5qFKCTEAuaxvHu0plWkWYT7BGzawO/view?usp=drive_link",
+        "brandLogoGdriveId": "1J1h5qFKCTEAuaxvHu0plWkWYT7BGzawO"
+      },
+      {
+        "no": 60,
+        "brandName": "lensbyVA",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1qHUvokuEKlARjqzzbZEpV2lc4G351I2D/view?usp=drive_link",
+        "brandLogoGdriveId": "1qHUvokuEKlARjqzzbZEpV2lc4G351I2D"
+      },
+      {
+        "no": 61,
+        "brandName": "Deeds",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1QC-55PGHDi_JAYXntinlCtr_GdkTGgOB/view?usp=drive_link",
+        "brandLogoGdriveId": "1QC-55PGHDi_JAYXntinlCtr_GdkTGgOB"
+      },
+      {
+        "no": 62,
+        "brandName": "Merchdachi",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1noX8ZRhcsvzrvofrBXhXira_kHow1DOt/view?usp=drive_link",
+        "brandLogoGdriveId": "1noX8ZRhcsvzrvofrBXhXira_kHow1DOt"
+      },
+      {
+        "no": 63,
+        "brandName": "Hagamo",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1-JvRHw46LqzXrBnBRW92-a9ChQD4c7Ca/view?usp=drive_link",
+        "brandLogoGdriveId": "1-JvRHw46LqzXrBnBRW92-a9ChQD4c7Ca"
+      },
+      {
+        "no": 64,
+        "brandName": "Her Palace Jewelry",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/12mWFcg8u-pEen1leD87dwwYYSeocxFjc/view?usp=drive_link",
+        "brandLogoGdriveId": "12mWFcg8u-pEen1leD87dwwYYSeocxFjc"
+      },
+      {
+        "no": 65,
+        "brandName": "PeHa",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XD4OMGYxXwuBQJhp-zMMGAF_ZfseX6IT/view?usp=drive_link",
+        "brandLogoGdriveId": "1XD4OMGYxXwuBQJhp-zMMGAF_ZfseX6IT"
+      }
+    ]
+  }
+]

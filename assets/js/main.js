@@ -209,6 +209,19 @@ function setActiveNavbarLink() {
   window.addEventListener("load", initSwiper);
 
   /**
+   * Animation on scroll function and init
+   */
+  function aosInit() {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', aosInit);
+
+  /**
    * Initiate glightbox
    */
   const glightbox = GLightbox({
@@ -243,6 +256,45 @@ function setActiveNavbarLink() {
         });
       }
     });
+  });
+
+  /**
+   * Init isotope layout and filters
+   */
+  document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
+    let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
+    let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
+    let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+
+    let initIsotope;
+    imagesLoaded(isotopeItem.querySelector('.isotope-container'), function() {
+      initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
+        itemSelector: '.isotope-item',
+        layoutMode: layout,
+        filter: filter,
+        sortBy: sort
+      });
+    });
+
+    const filtersContainer = isotopeItem.querySelector('.isotope-filters');
+
+    filtersContainer.addEventListener('click', function(e) {
+      const filterBtn = e.target.closest('li[data-filter]');
+      if (!filterBtn) return; // Klik bukan pada <li> filter
+
+      const active = filtersContainer.querySelector('.filter-active');
+      if (active) active.classList.remove('filter-active');
+      filterBtn.classList.add('filter-active');
+
+      initIsotope.arrange({
+        filter: filterBtn.getAttribute('data-filter')
+      });
+
+      if (typeof aosInit === 'function') {
+        aosInit();
+      }
+    });
+
   });
 
 })();

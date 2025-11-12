@@ -135,10 +135,19 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+/*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(190, 211, 236, 0);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -648,14 +657,14 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 160px 0 80px 0;
+  padding: 100px 0 50px 0;
   text-align: center;
   position: relative;
 }
 
 .page-title:before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
+  /* background-color: color-mix(in srgb, var(--background-color), transparent 30%); */
   position: absolute;
   inset: 0;
 }
@@ -4542,7 +4551,7 @@ section,
   text-align: center;
 }
 
-.venue-2 .accommodation-section .tenant-card {
+.tenant-card {
   background-color: var(--surface-color);
   border-radius: 15px;
   overflow: hidden;
@@ -4551,27 +4560,34 @@ section,
   height: 100%;
 }
 
-.venue-2 .accommodation-section .tenant-card:hover {
+.tenant-card:hover {
   transform: translateY(-5px);
 }
 
-.venue-2 .accommodation-section .tenant-card img {
+.tenant-card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: contain;
 }
 
-.venue-2 .accommodation-section .tenant-card .tenant-info {
+.tenant-card .tenant-info {
   padding: 20px;
+  text-align: center;
 }
 
-.venue-2 .accommodation-section .tenant-card .tenant-info h6 {
-  color: var(--heading-color);
+.tenant-card .tenant-info h6 {
+  color: var(--accent-color);
   margin-bottom: 10px;
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
 }
 
-.venue-2 .accommodation-section .tenant-card .tenant-info .hotel-distance {
+.tenant-card .tenant-info .hotel-distance {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -4579,14 +4595,14 @@ section,
   font-size: 0.9rem;
 }
 
-.venue-2 .accommodation-section .tenant-card .tenant-info .hotel-distance i {
+.tenant-card .tenant-info .hotel-distance i {
   color: var(--accent-color);
   font-size: 0.8rem;
 }
 
-.venue-2 .accommodation-section .tenant-card .tenant-info .tenant-name {
+.tenant-card .tenant-info p {
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--heading-color);
 }
 
 @media (max-width: 768px) {
@@ -4607,9 +4623,122 @@ section,
     margin-bottom: 30px;
   }
 
-  .venue-2 .tenant-card {
+  .tenant-card {
     margin-bottom: 30px;
   }
+}
+
+/*--------------------------------------------------------------
+# tenant Section
+--------------------------------------------------------------*/
+.tenant .tenant-filters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.tenant .tenant-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  line-height: 1;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tenant .tenant-filters li:hover,
+.tenant .tenant-filters li.filter-active {
+  color: var(--accent-color);
+}
+
+.tenant .tenant-filters li:first-child {
+  margin-left: 0;
+}
+
+.tenant .tenant-filters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .tenant .tenant-filters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
+
+.tenant .tenant-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.tenant .tenant-content img {
+  transition: 0.3s;
+}
+
+.tenant .tenant-content .tenant-info {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  display: flex;
+}
+
+.tenant .tenant-content .tenant-info h4 {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+  background-color: var(--accent-color);
+}
+
+.tenant .tenant-content .tenant-info p {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tenant .tenant-content .tenant-info .preview-link,
+.tenant .tenant-content .tenant-info .details-link {
+  position: absolute;
+  left: calc(50% - 40px);
+  font-size: 26px;
+  top: calc(50% - 14px);
+  color: #fff;
+  transition: 0.3s;
+  line-height: 1.2;
+}
+
+.tenant .tenant-content .tenant-info .preview-link:hover,
+.tenant .tenant-content .tenant-info .details-link:hover {
+  color: var(--accent-color);
+}
+
+.tenant .tenant-content .tenant-info .details-link {
+  left: 50%;
+  font-size: 34px;
+  line-height: 0;
+}
+
+.tenant .tenant-content:hover .tenant-info {
+  opacity: 1;
+}
+
+.tenant .tenant-content:hover img {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
