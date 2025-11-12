@@ -1,32 +1,644 @@
 [
-    {
-        "tenantLogoGdriveId": "",
-        "tenantName": "",
-        "tenantLogoUrl": ""
-    },
-    {
-        "tenantLogoGdriveId": "1F4o9Xh-BeK9FhaHJ6gGo-j9rhK7oXFoA",
-        "tenantName": "Bake 'N Wake",
-        "tenantLogoUrl": "https://drive.google.com/file/d/1F4o9Xh-BeK9FhaHJ6gGo-j9rhK7oXFoA/view?usp=drive_link"
-    },
-    {
-        "tenantLogoGdriveId": "16kd4KQOgqKw69VAWt08HDaitW8_BDMyg",
-        "tenantName": "Bakso AJ",
-        "tenantLogoUrl": "https://drive.google.com/file/d/16kd4KQOgqKw69VAWt08HDaitW8_BDMyg/view?usp=drive_link"
-    },
-    {
-        "tenantLogoGdriveId": "19fjIF6oUQ4vcqQh5i7l1SAtK5KvzNsKS",
-        "tenantName": "Baksoeen",
-        "tenantLogoUrl": "https://drive.google.com/file/d/19fjIF6oUQ4vcqQh5i7l1SAtK5KvzNsKS/view?usp=drive_link"
-    },
-    {
-        "tenantLogoGdriveId": "16YYIrM8JJhP-z8vGICNrKPJ5qJ4bZ3jG",
-        "tenantName": "Beyond The Label",
-        "tenantLogoUrl": "https://drive.google.com/file/d/16YYIrM8JJhP-z8vGICNrKPJ5qJ4bZ3jG/view?usp=drive_link"
-    },
-    {
-        "tenantLogoGdriveId": "10Yk7uB5Fbt9QPXHVa1ErTh8r586F1nqQ",
-        "tenantName": "Can Bee",
-        "tenantLogoUrl": "https://drive.google.com/file/d/10Yk7uB5Fbt9QPXHVa1ErTh8r586F1nqQ/view?usp=drive_link"
-    }
+  {
+    "tenantCategory": "FnB",
+    "tenantCategoryDesc": "Food & Beverages",
+    "listTenants": [
+      {
+        "no": 1,
+        "brandName": "Bake 'n Wave",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/127Acoy0scR8Od0ZnsYVcrsQLtnPWyDlx/view?usp=drive_link",
+        "brandLogoGdriveId": "127Acoy0scR8Od0ZnsYVcrsQLtnPWyDlx"
+      },
+      {
+        "no": 2,
+        "brandName": "Bakso Aj",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1MUdsJBbWB4F4ix0BTl-BPczSNEm60EeF/view?usp=drive_link",
+        "brandLogoGdriveId": "1MUdsJBbWB4F4ix0BTl-BPczSNEm60EeF"
+      },
+      {
+        "no": 3,
+        "brandName": "Bakso Goreng 88",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1sL0zl3oKLrR_zK63UBN-AagOxuv5TPdL/view?usp=drive_link",
+        "brandLogoGdriveId": "1sL0zl3oKLrR_zK63UBN-AagOxuv5TPdL"
+      },
+      {
+        "no": 4,
+        "brandName": "Baksoeen",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1-EIvmDqytze7VNT1punibSzOs0EXNUMs/view?usp=drive_link",
+        "brandLogoGdriveId": "1-EIvmDqytze7VNT1punibSzOs0EXNUMs"
+      },
+      {
+        "no": 5,
+        "brandName": "Ballin Chicken",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1EPzgEL274GP65MNbiVsC0e_bRn3SihOL/view?usp=drive_link",
+        "brandLogoGdriveId": "1EPzgEL274GP65MNbiVsC0e_bRn3SihOL"
+      },
+      {
+        "no": 6,
+        "brandName": "Baopei",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1rLF4_3-brfH7hOVf_ejaJgW33rWiS64m/view?usp=drive_link",
+        "brandLogoGdriveId": "1rLF4_3-brfH7hOVf_ejaJgW33rWiS64m"
+      },
+      {
+        "no": 7,
+        "brandName": "Bibo Dimsum",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Gg8X8BaS7E2UKUCxfJWIJn9byFBlfk0o/view?usp=drive_link",
+        "brandLogoGdriveId": "1Gg8X8BaS7E2UKUCxfJWIJn9byFBlfk0o"
+      },
+      {
+        "no": 8,
+        "brandName": "Brevano & co",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1oUMxMYckoLJHOzcKJ7nVMf8G6g7WRJl3/view?usp=drive_link",
+        "brandLogoGdriveId": "1oUMxMYckoLJHOzcKJ7nVMf8G6g7WRJl3"
+      },
+      {
+        "no": 9,
+        "brandName": "Buribo's Burito Bowl",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1_fIjqEBy-XKYyxaReOC3vDM541gc1nly/view?usp=drive_link",
+        "brandLogoGdriveId": "1_fIjqEBy-XKYyxaReOC3vDM541gc1nly"
+      },
+      {
+        "no": 10,
+        "brandName": "Cha Yang",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Gty5Dtj6oRyUXijiVpcz1ETQx7vW_hFe/view?usp=drive_link",
+        "brandLogoGdriveId": "1Gty5Dtj6oRyUXijiVpcz1ETQx7vW_hFe"
+      },
+      {
+        "no": 11,
+        "brandName": "Chill OAT",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Fs1vWs4yDrwCw2oEma6HBEGWZYwaFIM_/view?usp=drive_link",
+        "brandLogoGdriveId": "1Fs1vWs4yDrwCw2oEma6HBEGWZYwaFIM_"
+      },
+      {
+        "no": 12,
+        "brandName": "Chipis",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1sbX7hD-rJ73822meLyrTfQbL0keXutb5/view?usp=drive_link",
+        "brandLogoGdriveId": "1sbX7hD-rJ73822meLyrTfQbL0keXutb5"
+      },
+      {
+        "no": 13,
+        "brandName": "Cocosips",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1HKGfPNhIUaqMlnWl04mmWIbGyIcsk335/view?usp=drive_link",
+        "brandLogoGdriveId": "1HKGfPNhIUaqMlnWl04mmWIbGyIcsk335"
+      },
+      {
+        "no": 14,
+        "brandName": "Cornivers",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1BkwOrdNF-mSX_6pPfbJHl-H4QK9Vaycn/view?usp=drive_link",
+        "brandLogoGdriveId": "1BkwOrdNF-mSX_6pPfbJHl-H4QK9Vaycn"
+      },
+      {
+        "no": 15,
+        "brandName": "Cravepack",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1AEKu9spQqJ1LB63vTz0z5lBjR79laGAq/view?usp=drive_link",
+        "brandLogoGdriveId": "1AEKu9spQqJ1LB63vTz0z5lBjR79laGAq"
+      },
+      {
+        "no": 16,
+        "brandName": "Cucu Capi",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Vhk7rWx-dcSm4GRNOm9_0JqSWttrmZcJ/view?usp=drive_link",
+        "brandLogoGdriveId": "1Vhk7rWx-dcSm4GRNOm9_0JqSWttrmZcJ"
+      },
+      {
+        "no": 17,
+        "brandName": "Fish Chick",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1JxRhTzgbpo-MsVkeFezVRJSsrHQR0JA7/view?usp=drive_link",
+        "brandLogoGdriveId": "1JxRhTzgbpo-MsVkeFezVRJSsrHQR0JA7"
+      },
+      {
+        "no": 18,
+        "brandName": "Fluff N Crust",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1deMSC-7AV3_BsXz8Cot6sxuo3t-f7CZv/view?usp=drive_link",
+        "brandLogoGdriveId": "1deMSC-7AV3_BsXz8Cot6sxuo3t-f7CZv"
+      },
+      {
+        "no": 19,
+        "brandName": "Fuwity Mix",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1lBwOtedUhqLrnt8ZAWzAZacuy5Bi7ZLP/view?usp=drive_link",
+        "brandLogoGdriveId": "1lBwOtedUhqLrnt8ZAWzAZacuy5Bi7ZLP"
+      },
+      {
+        "no": 20,
+        "brandName": "Giri Giri",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1poEek8sPsTTmwNZIsX5Y4QBO11qEnr6l/view?usp=drive_link",
+        "brandLogoGdriveId": "1poEek8sPsTTmwNZIsX5Y4QBO11qEnr6l"
+      },
+      {
+        "no": 21,
+        "brandName": "Golden Craves",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1tjQCIHc8MiDNpjfN44l5H0fniB44V3hk/view?usp=drive_link",
+        "brandLogoGdriveId": "1tjQCIHc8MiDNpjfN44l5H0fniB44V3hk"
+      },
+      {
+        "no": 22,
+        "brandName": "Gowan",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1YON1rR2E_GQpcdYU-0lTs3LC5QaphH0n/view?usp=drive_link",
+        "brandLogoGdriveId": "1YON1rR2E_GQpcdYU-0lTs3LC5QaphH0n"
+      },
+      {
+        "no": 23,
+        "brandName": "Hakau Dimsum",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1IHzxX0i4HnTwrred229gDVNdbADbjIDs/view?usp=drive_link",
+        "brandLogoGdriveId": "1IHzxX0i4HnTwrred229gDVNdbADbjIDs"
+      },
+      {
+        "no": 24,
+        "brandName": "Haus of Bagel",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1fBqRmtkef5hJ6bT2-3PJ1DMUwwbiOOmk/view?usp=drive_link",
+        "brandLogoGdriveId": "1fBqRmtkef5hJ6bT2-3PJ1DMUwwbiOOmk"
+      },
+      {
+        "no": 25,
+        "brandName": "Homobonus",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zBFQais5KHW5gePi6OSGsXS8KZPJ7p9_/view?usp=drive_link",
+        "brandLogoGdriveId": "1zBFQais5KHW5gePi6OSGsXS8KZPJ7p9_"
+      },
+      {
+        "no": 26,
+        "brandName": "K'Lon",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zDB_jStcjRMRmxg6_PAtfxNZjvOMwSy4/view?usp=drive_link",
+        "brandLogoGdriveId": "1zDB_jStcjRMRmxg6_PAtfxNZjvOMwSy4"
+      },
+      {
+        "no": 27,
+        "brandName": "Keshi",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/15Nz53bRNIbFe_jY0OypbY9Ie9Cpak35A/view?usp=drive_link",
+        "brandLogoGdriveId": "15Nz53bRNIbFe_jY0OypbY9Ie9Cpak35A"
+      },
+      {
+        "no": 28,
+        "brandName": "KOBU Coffee",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/13qoOUon6AJhPvW4a4TAfKKXA0NjJNbqO/view?usp=drive_link",
+        "brandLogoGdriveId": "13qoOUon6AJhPvW4a4TAfKKXA0NjJNbqO"
+      },
+      {
+        "no": 29,
+        "brandName": "Kori Dessert",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1QduqQrmrWka9z6Oe6XS_WEjUQcHNJr47/view?usp=drive_link",
+        "brandLogoGdriveId": "1QduqQrmrWka9z6Oe6XS_WEjUQcHNJr47"
+      },
+      {
+        "no": 30,
+        "brandName": "Lil' Dough",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1ucv3-on0LV8W9JRU1XXn7s9Ts1SvAvFE/view?usp=drive_link",
+        "brandLogoGdriveId": "1ucv3-on0LV8W9JRU1XXn7s9Ts1SvAvFE"
+      },
+      {
+        "no": 31,
+        "brandName": "Mach",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1rDYQKVx27bZDm5F3qc5jA1y2Imzd33Zp/view?usp=drive_link",
+        "brandLogoGdriveId": "1rDYQKVx27bZDm5F3qc5jA1y2Imzd33Zp"
+      },
+      {
+        "no": 32,
+        "brandName": "Matchacih",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1vBMAejThHl7lG3iy3Gb8hBk7ZXpwuX6t/view?usp=drive_link",
+        "brandLogoGdriveId": "1vBMAejThHl7lG3iy3Gb8hBk7ZXpwuX6t"
+      },
+      {
+        "no": 33,
+        "brandName": "MATCHADEGREE",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/132FkHwhsjxiuD2ug-ge_0gO0Uhjvz8yJ/view?usp=drive_link",
+        "brandLogoGdriveId": "132FkHwhsjxiuD2ug-ge_0gO0Uhjvz8yJ"
+      },
+      {
+        "no": 34,
+        "brandName": "Mi Time",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1e98XlHh6XYMJW7raOS8RTkpo_2WxJ3su/view?usp=drive_link",
+        "brandLogoGdriveId": "1e98XlHh6XYMJW7raOS8RTkpo_2WxJ3su"
+      },
+      {
+        "no": 35,
+        "brandName": "Mie Aceh Baroe",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Z12hdjC2eP8HeCFsqjVfQLwN34NG1TXZ/view?usp=drive_link",
+        "brandLogoGdriveId": "1Z12hdjC2eP8HeCFsqjVfQLwN34NG1TXZ"
+      },
+      {
+        "no": 36,
+        "brandName": "Mie Shie Ming",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1qqM8byDLYK3mhgchJ3SVGLs1vGe-PNE9/view?usp=drive_link",
+        "brandLogoGdriveId": "1qqM8byDLYK3mhgchJ3SVGLs1vGe-PNE9"
+      },
+      {
+        "no": 37,
+        "brandName": "Mimi",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1scgt9YqI2kuFlnPmBwMGPqy09pS_aYKT/view?usp=drive_link",
+        "brandLogoGdriveId": "1scgt9YqI2kuFlnPmBwMGPqy09pS_aYKT"
+      },
+      {
+        "no": 38,
+        "brandName": "Mobobites",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1gcy7n_yn6gZFNKHW3pBlDUNUCJCIlh24/view?usp=drive_link",
+        "brandLogoGdriveId": "1gcy7n_yn6gZFNKHW3pBlDUNUCJCIlh24"
+      },
+      {
+        "no": 39,
+        "brandName": "Mpok Sambel",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/12_ui-Sn9T3u3tyJ-LtwueMtWZ7ZgGjPk/view?usp=drive_link",
+        "brandLogoGdriveId": "12_ui-Sn9T3u3tyJ-LtwueMtWZ7ZgGjPk"
+      },
+      {
+        "no": 40,
+        "brandName": "Nagihpack",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/13gpi1wJ-JdkMsdmKuEuhHm9f6e7cSoTp/view?usp=sharing",
+        "brandLogoGdriveId": "13gpi1wJ-JdkMsdmKuEuhHm9f6e7cSoTp"
+      },
+      {
+        "no": 41,
+        "brandName": "Nostaloka",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1rgjknFSHfxbQemREY6T9O4Ir0huY9jf3/view?usp=drive_link",
+        "brandLogoGdriveId": "1rgjknFSHfxbQemREY6T9O4Ir0huY9jf3"
+      },
+      {
+        "no": 42,
+        "brandName": "Oh Mor",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1M7Zc14SoDoUetiOdQRUk4Wq0WrGKfZ33/view?usp=drive_link",
+        "brandLogoGdriveId": "1M7Zc14SoDoUetiOdQRUk4Wq0WrGKfZ33"
+      },
+      {
+        "no": 43,
+        "brandName": "Oh My Chicks",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1ufbpIekmhxmo4DskKjRX11hP9Wt1ucdK/view?usp=drive_link",
+        "brandLogoGdriveId": "1ufbpIekmhxmo4DskKjRX11hP9Wt1ucdK"
+      },
+      {
+        "no": 44,
+        "brandName": "Piscil",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/19RqK0-yRKeFCdbc7kGdwgUUXweuv3X_C/view?usp=drive_link",
+        "brandLogoGdriveId": "19RqK0-yRKeFCdbc7kGdwgUUXweuv3X_C"
+      },
+      {
+        "no": 45,
+        "brandName": "Pizzario",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1dRVlEcLSxOXq3M-fpzxY9TWF3PtsvwuF/view?usp=drive_link",
+        "brandLogoGdriveId": "1dRVlEcLSxOXq3M-fpzxY9TWF3PtsvwuF"
+      },
+      {
+        "no": 46,
+        "brandName": "Plate Nation",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Rzz4VFSDs5RD0LMTr08KPMQWtv765EAY/view?usp=drive_link",
+        "brandLogoGdriveId": "1Rzz4VFSDs5RD0LMTr08KPMQWtv765EAY"
+      },
+      {
+        "no": 47,
+        "brandName": "PLOK!",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/15FqOAp4TDsW2Ak3ZzcZ3CVLbAJ7mc7tq/view?usp=drive_link",
+        "brandLogoGdriveId": "15FqOAp4TDsW2Ak3ZzcZ3CVLbAJ7mc7tq"
+      },
+      {
+        "no": 48,
+        "brandName": "Poure",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1buZnG4M1M0rqwCTae0DBKdUAb40uxmgu/view?usp=drive_link",
+        "brandLogoGdriveId": "1buZnG4M1M0rqwCTae0DBKdUAb40uxmgu"
+      },
+      {
+        "no": 49,
+        "brandName": "Puffee",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1fh3AdlHqricdi3KMkGv1pNA8jnwActYO/view?usp=drive_link",
+        "brandLogoGdriveId": "1fh3AdlHqricdi3KMkGv1pNA8jnwActYO"
+      },
+      {
+        "no": 50,
+        "brandName": "Sabu",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1mGpA-AajZ4_p6Ej6Tz36aDYX9CPL9c1N/view?usp=drive_link",
+        "brandLogoGdriveId": "1mGpA-AajZ4_p6Ej6Tz36aDYX9CPL9c1N"
+      },
+      {
+        "no": 51,
+        "brandName": "Silky Frezz",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1JSq2C9WV0q3bagZCHz96gBlLNVKUEMC-/view?usp=drive_link",
+        "brandLogoGdriveId": "1JSq2C9WV0q3bagZCHz96gBlLNVKUEMC-"
+      },
+      {
+        "no": 52,
+        "brandName": "Spudy",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1jGEyaRbZOWMu5DJoSzWhjAB1akVHtXbO/view?usp=drive_link",
+        "brandLogoGdriveId": "1jGEyaRbZOWMu5DJoSzWhjAB1akVHtXbO"
+      },
+      {
+        "no": 53,
+        "brandName": "Sweet Olia",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1LPPPdn-lFCRnfYVNPiKOAZIsf1VyOpr1/view?usp=drive_link",
+        "brandLogoGdriveId": "1LPPPdn-lFCRnfYVNPiKOAZIsf1VyOpr1"
+      },
+      {
+        "no": 54,
+        "brandName": "Syeger",
+        "brandCategory": "Beverage",
+        "brandLogoUrl": "https://drive.google.com/file/d/1qSzyI1viU9Pprlz9bcKC2lAGaFJLmego/view?usp=drive_link",
+        "brandLogoGdriveId": "1qSzyI1viU9Pprlz9bcKC2lAGaFJLmego"
+      },
+      {
+        "no": 55,
+        "brandName": "Ten Bowl",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1hOqjAMJ8xKQinS680mghZ4VVgBBbHB5w/view?usp=drive_link",
+        "brandLogoGdriveId": "1hOqjAMJ8xKQinS680mghZ4VVgBBbHB5w"
+      },
+      {
+        "no": 56,
+        "brandName": "Toroshu",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/12cHzYRNW_uVzjZdDq2NQCLOmvcrnMnAw/view?usp=drive_link",
+        "brandLogoGdriveId": "12cHzYRNW_uVzjZdDq2NQCLOmvcrnMnAw"
+      },
+      {
+        "no": 57,
+        "brandName": "Ur Donuts",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/18tHDPWgmGhx77PwSTckQ6wWSMRH_7_Tr/view?usp=drive_link",
+        "brandLogoGdriveId": "18tHDPWgmGhx77PwSTckQ6wWSMRH_7_Tr"
+      },
+      {
+        "no": 58,
+        "brandName": "Waffle Taffy",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/18pmZof826ak7GPjnqkh0VNh6JuZJhUiD/view?usp=drive_link",
+        "brandLogoGdriveId": "18pmZof826ak7GPjnqkh0VNh6JuZJhUiD"
+      },
+      {
+        "no": 59,
+        "brandName": "Woyam",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1zC2B5BXkKIKzWgYVzhdY5RxsEIOXK6Ww/view?usp=drive_link",
+        "brandLogoGdriveId": "1zC2B5BXkKIKzWgYVzhdY5RxsEIOXK6Ww"
+      },
+      {
+        "no": 60,
+        "brandName": "Xum Dimsum",
+        "brandCategory": "Food",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Z-GzoPJjFRIQSa_DC55F64w6oHbsJR4D/view?usp=drive_link",
+        "brandLogoGdriveId": "1Z-GzoPJjFRIQSa_DC55F64w6oHbsJR4D"
+      }
+    ]
+  },
+  {
+    "tenantCategory": "Retail",
+    "tenantCategoryDesc": "Retail",
+    "listTenants": [
+      {
+        "no": 1,
+        "brandName": "Athabell",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1x-nA17JqrHXe5aLjTzeP-wGsaraMvyQB/view?usp=drive_link",
+        "brandLogoGdriveId": "1x-nA17JqrHXe5aLjTzeP-wGsaraMvyQB"
+      },
+      {
+        "no": 2,
+        "brandName": "Beyond The Label",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1nM35vYgl8MhRT9zEUPMV_6AumjZ4YZme/view?usp=drive_link",
+        "brandLogoGdriveId": "1nM35vYgl8MhRT9zEUPMV_6AumjZ4YZme"
+      },
+      {
+        "no": 3,
+        "brandName": "Bucinkit",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1wdZ6IKyonHLJ4WlPff2MRfbvHeruJ9Lk/view?usp=drive_link",
+        "brandLogoGdriveId": "1wdZ6IKyonHLJ4WlPff2MRfbvHeruJ9Lk"
+      },
+      {
+        "no": 4,
+        "brandName": "Canbee",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XVjxaSvMOSDnixGQPv05MmJZqbh6f7sr/view?usp=drive_link",
+        "brandLogoGdriveId": "1XVjxaSvMOSDnixGQPv05MmJZqbh6f7sr"
+      },
+      {
+        "no": 5,
+        "brandName": "Charmea",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1pwlPgW8tR5hp4qR_zb-bWIIZjb6VHq-1/view?usp=drive_link",
+        "brandLogoGdriveId": "1pwlPgW8tR5hp4qR_zb-bWIIZjb6VHq-1"
+      },
+      {
+        "no": 6,
+        "brandName": "Chuckles",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1jbHFaZJfEX0-Ajw9JqrlNxpip-_MmX1D/view?usp=drive_link",
+        "brandLogoGdriveId": "1jbHFaZJfEX0-Ajw9JqrlNxpip-_MmX1D"
+      },
+      {
+        "no": 7,
+        "brandName": "Claira Outlet",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1kVrT0MMKlWeCiy09h7SKu5S5I2l4G8QN/view?usp=drive_link",
+        "brandLogoGdriveId": "1kVrT0MMKlWeCiy09h7SKu5S5I2l4G8QN"
+      },
+      {
+        "no": 8,
+        "brandName": "Datch Parts",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/185aSYEKk6krTrb5Yrqexkx8JKGORmH5R/view?usp=drive_link",
+        "brandLogoGdriveId": "185aSYEKk6krTrb5Yrqexkx8JKGORmH5R"
+      },
+      {
+        "no": 9,
+        "brandName": "DÉCHETS",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/185Xya5F72E_fKlAIlUrN-r0kBsrs_i9X/view?usp=drive_link",
+        "brandLogoGdriveId": "185Xya5F72E_fKlAIlUrN-r0kBsrs_i9X"
+      },
+      {
+        "no": 10,
+        "brandName": "Enthades",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1uNpDJjjGrRWia0qwlDWPshQ7VP2gN_8n/view?usp=drive_link",
+        "brandLogoGdriveId": "1uNpDJjjGrRWia0qwlDWPshQ7VP2gN_8n"
+      },
+      {
+        "no": 11,
+        "brandName": "Evee.",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1tBu721VbcwBwr7MbpewcJOm2lpmCtPf2/view?usp=drive_link",
+        "brandLogoGdriveId": "1tBu721VbcwBwr7MbpewcJOm2lpmCtPf2"
+      },
+      {
+        "no": 12,
+        "brandName": "Everlore",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1OXXyQhdd0010cQl0Rq6HuzRUKVln5-HV/view?usp=drive_link",
+        "brandLogoGdriveId": "1OXXyQhdd0010cQl0Rq6HuzRUKVln5-HV"
+      },
+      {
+        "no": 13,
+        "brandName": "Joie Florelle",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1dCH0K5ekW1l0_K6unZ3Cr6VmrVD11H67/view?usp=drive_link",
+        "brandLogoGdriveId": "1dCH0K5ekW1l0_K6unZ3Cr6VmrVD11H67"
+      },
+      {
+        "no": 14,
+        "brandName": "Kirincharms",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1vKf5YkF_1VFpjoogd9tahf957z2mcxPm/view?usp=drive_link",
+        "brandLogoGdriveId": "1vKf5YkF_1VFpjoogd9tahf957z2mcxPm"
+      },
+      {
+        "no": 15,
+        "brandName": "Loudett'e",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XIepxVffb6RPKOO4NRvUMpNnRYa_lEuj/view?usp=drive_link",
+        "brandLogoGdriveId": "1XIepxVffb6RPKOO4NRvUMpNnRYa_lEuj"
+      },
+      {
+        "no": 16,
+        "brandName": "Lume Studio",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Mu-2-q2s_WkV3a8DGEN8ww3tqL59Demk/view?usp=drive_link",
+        "brandLogoGdriveId": "1Mu-2-q2s_WkV3a8DGEN8ww3tqL59Demk"
+      },
+      {
+        "no": 17,
+        "brandName": "Luxoeil Nails Studio",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/15F1WoGlx1l6jJFQvtbeDu4IjO2VhYVnP/view?usp=drive_link",
+        "brandLogoGdriveId": "15F1WoGlx1l6jJFQvtbeDu4IjO2VhYVnP"
+      },
+      {
+        "no": 18,
+        "brandName": "Mingfei Florist",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XfyU1GzsgqwVa2rXN4q8EeXZAMkzoU_r/view?usp=drive_link",
+        "brandLogoGdriveId": "1XfyU1GzsgqwVa2rXN4q8EeXZAMkzoU_r"
+      },
+      {
+        "no": 19,
+        "brandName": "Noctale",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/18cYuagGjbdRwdOblGfy2iXyfoGfpsS9r/view?usp=drive_link",
+        "brandLogoGdriveId": "18cYuagGjbdRwdOblGfy2iXyfoGfpsS9r"
+      },
+      {
+        "no": 20,
+        "brandName": "RONS",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1ADSFjMN-FJnN7F0WpJ0XHdtkQU4A9yex/view?usp=drive_link",
+        "brandLogoGdriveId": "1ADSFjMN-FJnN7F0WpJ0XHdtkQU4A9yex"
+      },
+      {
+        "no": 21,
+        "brandName": "S!CK STUDIO",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1qzz1DitW4_5B9cQmkvJ2fIxag69VmYpb/view?usp=drive_link",
+        "brandLogoGdriveId": "1qzz1DitW4_5B9cQmkvJ2fIxag69VmYpb"
+      },
+      {
+        "no": 22,
+        "brandName": "Sebingkis",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Jld6nAhb8Ar4o_yjhm1_xLGM4HvBWlE5/view?usp=drive_link",
+        "brandLogoGdriveId": "1Jld6nAhb8Ar4o_yjhm1_xLGM4HvBWlE5"
+      },
+      {
+        "no": 23,
+        "brandName": "Senada Helai",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1YWfsLnTbQOm6EBVhZx-JNb1EZ0Q81BW-/view?usp=drive_link",
+        "brandLogoGdriveId": "1YWfsLnTbQOm6EBVhZx-JNb1EZ0Q81BW-"
+      },
+      {
+        "no": 24,
+        "brandName": "Sérafine",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1XiOdrPQ43h-dUwtqEtbRshiWHkXBcQnn/view?usp=drive_link",
+        "brandLogoGdriveId": "1XiOdrPQ43h-dUwtqEtbRshiWHkXBcQnn"
+      },
+      {
+        "no": 25,
+        "brandName": "Shoeshoe Laundry",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/13ELW7i-Vb_98iCKuvJHIbN8k8ngTzG6T/view?usp=drive_link",
+        "brandLogoGdriveId": "13ELW7i-Vb_98iCKuvJHIbN8k8ngTzG6T"
+      },
+      {
+        "no": 26,
+        "brandName": "Skyfriday",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1n60z9rf9sv-snkM3Pv0-4A4U1PvtA0_Q/view?usp=drive_link",
+        "brandLogoGdriveId": "1n60z9rf9sv-snkM3Pv0-4A4U1PvtA0_Q"
+      },
+      {
+        "no": 27,
+        "brandName": "Tili-teli",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1OCcNytYEAwbE8gLxh9N_xuB4b-DxjK3K/view?usp=drive_link",
+        "brandLogoGdriveId": "1OCcNytYEAwbE8gLxh9N_xuB4b-DxjK3K"
+      },
+      {
+        "no": 28,
+        "brandName": "Vamotus",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1Y2gpbLfTdvvN5kdSL1GUsZk5J44TcUmQ/view?usp=drive_link",
+        "brandLogoGdriveId": "1Y2gpbLfTdvvN5kdSL1GUsZk5J44TcUmQ"
+      },
+      {
+        "no": 29,
+        "brandName": "WNG!",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/1uzEIEftcTZPUk5ThXMGgcQHuPHxHPEJj/view?usp=drive_link",
+        "brandLogoGdriveId": "1uzEIEftcTZPUk5ThXMGgcQHuPHxHPEJj"
+      },
+      {
+        "no": 30,
+        "brandName": "Yarn Tales",
+        "brandCategory": "Retail",
+        "brandLogoUrl": "https://drive.google.com/file/d/12Y9drli2xNbKPELVoL15zkX25oS_GgQu/view?usp=drive_link",
+        "brandLogoGdriveId": "12Y9drli2xNbKPELVoL15zkX25oS_GgQu"
+      }
+    ]
+  }
 ]

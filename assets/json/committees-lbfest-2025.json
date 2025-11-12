@@ -1,0 +1,25 @@
+[
+    {
+        "divisionName": "Pengurus Inti",
+        "listMember": [
+            {
+                "memberPosition": "Ketua Umum",
+                "memberFullName": "Nicholas Salim",
+                "memberPhotoUrl": "https://drive.google.com/file/d/1IvUU2FcCkwg8-gOUOgJ6qxHSTQez-ZgR/view?usp=drive_link",
+                "memberPhotoGdriveId": "1IvUU2FcCkwg8-gOUOgJ6qxHSTQez-ZgR"
+            },
+            {
+                "memberPosition": "Wakil Ketua Umum 1",
+                "memberFullName": "Tithipan Watana Anurak",
+                "memberPhotoUrl": "https://drive.google.com/open?id=1bC27oM2C_Fjn0i9832iUd3suunFpMIoj",
+                "memberPhotoGdriveId": "1bC27oM2C_Fjn0i9832iUd3suunFpMIoj"
+            },
+            {
+                "memberPosition": "Wakil Ketua Umum 2",
+                "memberFullName": "Samantha Nicolle",
+                "memberPhotoUrl": "https://drive.google.com/file/d/1aJf9gC_2wpd9v1w4KupsWg1UEnbJYS2R/view?usp=drive_link",
+                "memberPhotoGdriveId": "1aJf9gC_2wpd9v1w4KupsWg1UEnbJYS2R"
+            }
+        ]
+    }
+]
